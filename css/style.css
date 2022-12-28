@@ -1,0 +1,43 @@
+img{
+    max-width: 300px; 
+}
+/* ширина */
+.col{
+    margin-top: 20px;
+}
+/* внешний отступ */
+.sneg{
+    border: 2px solid black;
+    padding: 5px;
+    background-color: blueviolet;
+}
+/* границы, отступы от них и цвет */
+
+.sneg1{
+    box-shadow: rgba(105, 4, 114, 0.25) 0px 50px 100px -20px, rgba(129, 0, 136, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    margin: 5px;
+}
+/* тень и внешний отступ */
+.sneg2{
+    background-image: url(../assets/snowflake.png);
+    background-size: 20px;
+    cursor: pointer;
+}
+/* еще снежинки, их размер и курсор */
+
+.sneg3{
+    opacity: 0.3;
+}
+/* прозрачность */
+
+.sneg3:hover{
+    opacity: 1;
+    background-color: black;
+}
+/* наведение мышкой, смена цвета */
+
+.sneg4:hover{
+    transform: rotate(45deg); 
+    background-color: pink;
+}
+/* поворот снежинки */
